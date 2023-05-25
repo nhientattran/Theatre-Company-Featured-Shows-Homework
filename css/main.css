@@ -78,12 +78,14 @@
 }
 hr{
     max-width: 600px;
+    padding-left: 30px;
+    margin-left: 35px;
     align-items: center;
     align-content: center;
 }
 .content{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     font-family: "roboto-black";
     align-content: space-evenly;
 }
@@ -94,6 +96,7 @@ hr{
     background-color: whitesmoke;
     padding-top: 1px;
     padding-left: 40px;
+    margin-left: 45px;
     padding-bottom: 1px;
     width: 600px;
 }
@@ -168,4 +171,9 @@ img{
     font-family: arial;
     color: white;
     font-size: 10px;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
